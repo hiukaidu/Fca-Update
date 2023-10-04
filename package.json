@@ -1,20 +1,20 @@
 {
-  "name": "fca-horizon-remastered",
+  "name": "fca-update",
   "version": "1.5.2",
-  "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team",
+  "description": "Facebook-chat-api protect and deploy by HZI Team×Star",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki",
+  "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, Star",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered/issues"
+    "url": "https://github.com/hiukaidu/Fca-Update/issues"
   },
-  "homepage": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered#readme",
+  "homepage": "https://github.com/hiukaidu/Fca-Update#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/KanzuXHorizon/Fca-Horizon-Remastered.git"
+    "url": "git://github.com/hiukaidu/Fca-Update/.git"
   },
   "dependencies": {
     "aes-js": "latest",
@@ -84,9 +84,9 @@
     }
   },
   "keywords": [
-    "Fca horizon",
-    "fca-horizon-remastered",
-    "horizon fca",
-    "horizon"
+    "Fca update",
+    "fca-update",
+    "star fca",
+    "star"
   ]
 }
