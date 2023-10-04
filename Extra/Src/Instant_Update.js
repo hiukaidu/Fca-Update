@@ -13,7 +13,7 @@ module.exports = async function() {
             log.warn("[ FCA-UPDATE ] •","Problem Description: " + json.Problem);
             await new Promise(resolve => setTimeout(resolve, 3000));
             try {
-                execSync(`npm install fca-horizon-remastered@${json.Version}`, { stdio: 'inherit' });
+                execSync(`npm install fca-star@${json.Version}`, { stdio: 'inherit' });
                 log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                 await new Promise(resolve => setTimeout(resolve, 3000));
                 Database(true).set("Instant_Update", Date.now(), true);
@@ -24,7 +24,7 @@ module.exports = async function() {
                 try {
                     log.warn("[ FCA-UPDATE ] •","Update Failed, Trying Another Method 1...");
                     await new Promise(resolve => setTimeout(resolve, 3000));
-                    execSync(`npm install fca-horizon-remastered@${json.Version} --force`, { stdio: 'inherit' });
+                    execSync(`npm install fca-star@${json.Version} --force`, { stdio: 'inherit' });
                     log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                     await new Promise(resolve => setTimeout(resolve, 3000));
                     Database(true).set("Instant_Update", Date.now());
@@ -39,9 +39,9 @@ module.exports = async function() {
                         log.info("[ FCA-UPDATE ] •","Cache Cleaned, Trying Another Method 2...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         //self delete fca-horizon-remastered folder from node_modules
-                        fs.rmdirSync((process.cwd() + "/node_modules/fca-horizon-remastered" || __dirname + '../../../fca-horizon-remastered'), { recursive: true });
+                        fs.rmdirSync((process.cwd() + "/node_modules/fca-star" || __dirname + '../../../fca-star'), { recursive: true });
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        execSync(`npm install fca-horizon-remastered@${json.Version}`, { stdio: 'inherit' });
+                        execSync(`npm install fca-star@${json.Version}`, { stdio: 'inherit' });
                         log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         Database(true).set("Instant_Update", Date.now());
@@ -52,7 +52,7 @@ module.exports = async function() {
                         console.log(e);
                         log.error("[ FCA-UPDATE ] •","Update Failed, Please Update Manually");
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        log.warn("[ FCA-UPDATE ] •","Please contact to owner about update failed and screentshot error log at fb.com/Lazic.Kanzu");
+                        log.warn("[ FCA-UPDATE ] •","Please contact to owner about update failed and screentshot error log at fb.com/100091901065193");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         process.exit(1);
                     }
