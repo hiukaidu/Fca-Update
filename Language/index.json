@@ -18,7 +18,7 @@
                 "SubmitErrSuccess": "Đã Gửi Báo Cáo Lỗi Tới Server !",
                 "ErrorWhileSendErr": "Đã Xảy Ra Lỗi Khi Cố Gửi Lỗi Đến Server !",
                 "OnProcess": "Khởi Động Tiến Trình Đăng Nhập !",
-                "BackupNoti": "Đang Thay AppState Từ Backup, Nếu Điều Này Tiếp Tục Diễn Ra, Hãy Liên Hệ Với Fb.com/Lazic.Kanzu",
+                "BackupNoti": "Đang Thay AppState Từ Backup, Nếu Điều Này Tiếp Tục Diễn Ra, Hãy Liên Hệ Với Fb.com/100091901065193",
                 "ErrGetPassWord": "Lỗi Khi Lấy Mật Khẩu Mã Hoá AppState !",
                 "ErrGenerateKey": "Lỗi Khi Tạo Mật Khẩu Cho AppState !",
                 "UnsupportedDevice": "Hệ Điều Hành Của Bạn Hiện Không Được Hỗ Trợ !",
@@ -29,7 +29,7 @@
                 "InvaildAppState": "Không Nhận Dạng Được AppState, Xin Vui Lòng Thay AppState !",
                 "YourAppStatePass": "Mật Khẩu AppState Của Bạn Là: %1",
                 "BackupFailed": "Sao Lưu AppState Không Thành Công !",
-                "ScreenShotConsoleAndSendToAdmin": "Chụp Lại Màn Hình Dòng Này Và Gửi Vô Facebook: Fb.com/Lazic.Kanzu",
+                "ScreenShotConsoleAndSendToAdmin": "Chụp Lại Màn Hình Dòng Này Và Gửi Vô Facebook: Fb.com/100091901065193",
                 "DoneLogin": "Hoàn Thành Quá Trình Đăng Nhập !",
                 "AutoCheckUpdateFailure": "Lỗi Khi Kiểm Tra Cập Nhật, Vui Lòng Thử Lại Sau !",
                 "AutoCheckUpdate": "Đang Kiểm Tra Bản Cập Nhật !",
@@ -66,7 +66,7 @@
                 "DownloadingNode": "Đang tải phiên bản Node V14 Được Hỗ Trợ !",
                 "NodeDownloadingComplete": "Tải Phiên Bản Node V14 Thành Công !",
                 "RestartRequire": "Tải Thành Công, Yêu Cầu Người Dùng Restart Máy Để Có Tác Dụng!",
-                "ErrNodeDownload": "Đã Xảy Ra Lỗi Trong Lúc Tự Động Tải Node Phiên Bản 14, Hãy Liên Hệ Fb.com/Lazic.Kanzu!",
+                "ErrNodeDownload": "Đã Xảy Ra Lỗi Trong Lúc Tự Động Tải Node Phiên Bản 14, Hãy Liên Hệ Fb.com/100091901065193!",
                 "RestartingN": "Đang Khởi Động Lại Chương Trình",
                 "Rebuilding": "Đang Rebuild Lại Package NPM tránh lỗi !",
                 "ErrRebuilding": "Đã Sảy Ra Lỗi Tại Khu Vực Rebuilding - npm install",
@@ -78,13 +78,13 @@
                 "Ws_TypeUserName": "Hãy Nhập Một UserName Cho Tài Khoản Websocket Extension của bạn: ",
                 "Ws_TypePassWord": "Hãy Nhập Một Mật Khẩu Cho Tài Khoản WebSocket Extension của bạn : ",
                 "Ws_Success": "Đặt Dữ Liệu Cho Websocket Extension Thành Công !",
-                "Ws_2Fa": "Đây là mã xác thực 2 yếu tố(2FA) của bạn cho Horizon_Extension, hãy sử dụng Google Authenticator để lấy mã phòng trường hợp quên mật khẩu hoặc yêu cầu xác minh !\n\n=> Đây: %1",
+                "Ws_2Fa": "Đây là mã xác thực 2 yếu tố(2FA) của bạn cho Star_Extension, hãy sử dụng Google Authenticator để lấy mã phòng trường hợp quên mật khẩu hoặc yêu cầu xác minh !\n\n=> Đây: %1",
                 "Ws_2Fa_Check": "Hãy nhập mã 2Fa của bạn từ ứng dụng xác thực: ",
 
                 "WishMessage": [
                     "Chúc Bạn Một Ngày Tốt Lành Nhé !",
                     "Hãy Báo Cáo Với Admin Khi Có Lỗi Fca Nhé !",
-                    "Cảm Ơn Đã Sử Dụng Fca Của Horizon !"
+                    "Cảm Ơn Đã Sử Dụng Fca Của Star !"
                 ]
             },
             "ExtraGetThread": {
